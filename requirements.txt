@@ -1,0 +1,8 @@
+streamlit
+streamlit-authenticator
+streamlit-folium
+google-generativeai
+langchain
+langchain-community
+faiss-cpu
+langchain_google_genai
