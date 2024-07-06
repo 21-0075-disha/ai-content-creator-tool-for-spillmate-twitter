@@ -18,9 +18,8 @@ This tool is powered by Google Gemini AI and Langchain is used for developing th
 - Install and configure a Python Virtual Environment (Anaconda or Miniconda)
 - Install all required dependencies (libraries) with ```pip install -r requirements.txt```
 - In the parent directory ```ai-content-creator-tool-for-spillmate-twitter```, create a ```.env``` file with ```GOOGLE_API_KEY=<Your API Key here>```
-- To run the Streamlit app, use ```streamlit run app-home-page.py```
+- To run the Streamlit app, use ```streamlit run content-creator-tool.py```
 
 ---
-Currently I am using a script to generate hashed passwords for users and store them in a pickle file (for authorization part).
-This can be improved by opting for a file ```.streamlit/secrets.toml``` which will store the user's email and password (will be doing that later).
+**Update:** Authentication is done with streamlit-secrets and user credentials are stored in ```.streamlit``` directory.
 I will also be using Ideogram AI to generate relevant images for better engagement with the content.
