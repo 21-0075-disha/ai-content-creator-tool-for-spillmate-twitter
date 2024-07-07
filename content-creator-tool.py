@@ -52,7 +52,7 @@ if not st.session_state.authenticated:
     if st.button("Login and Proceed to App"):
         if authenticate(username, password):
             st.session_state.authenticated = True
-            st.success("Welcome Content Creator!")
+            st.success("Welcome Content Creator! Click again to go.")
         else:
             st.error("Invalid credentials")
 else:
